@@ -24,6 +24,7 @@ export function Player() {
     } else {
       audioRef.current.src = '/music/1/01.mp3'
       audioRef.current.play()
+      audioRef.current.volume = 0.1
     }
     
     setIsPlaying(!isPlaying)
